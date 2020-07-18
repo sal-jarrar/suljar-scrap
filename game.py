@@ -16,7 +16,6 @@ def start_game(quotes):
     text = rquote['text']
     link = rquote['link']
     print(text)
-    print(author)
     number_of_guess = 4
     guess = ''
     while guess != author and number_of_guess > 0:
